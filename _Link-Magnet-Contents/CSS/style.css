@@ -7,8 +7,8 @@ body{
     display: grid;
     grid-template-columns: 0.5fr repeat(4, 1fr);
     grid-template-rows: 0.4fr repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     }
     /* Header */
     .div1 {
@@ -23,19 +23,24 @@ body{
     /* Social Links Container */
     .div2 {
         grid-area: 3 / 2 / 6 / 5;
+        background: black;
     }
     /* Beginning of social links */
     .div3 {
         grid-area: 3 / 2 / 4 / 3;
+        background: blue;
     }
     .div4 {
         grid-area: 3 / 3 / 4 / 4;
+        background: red;
     }
     .div5 {
         grid-area: 3 / 4 / 4 / 5;
+        background: green;
     }
     .div6 {
         grid-area: 4 / 2 / 5 / 3;
+        background: gray;
     }
     .div7 {
         grid-area: 4 / 3 / 5 / 4;
