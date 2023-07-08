@@ -3,6 +3,11 @@ body{
     color:aliceblue;
     overflow: hidden;
 }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .parent {
     display: grid;
@@ -15,7 +20,7 @@ body{
     .div1 {
         grid-area: 1 / 1 / 2 / 6;
         font-family: 'Oleo Script Swash Caps', cursive;
-        background: rgba(170, 50, 50, 0.281);
+        background: rgba(0, 0, 0, 0.712);
         padding: 1rem;
         text-align: center;
         font-size: x-large;
@@ -24,26 +29,23 @@ body{
     /* Social Links Container */
     .div2 {
         grid-area: 3 / 2 / 6 / 5;
-        background: rgba(0, 0, 0, 0.226);
+        background: rgba(0, 0, 0, 0.712);
         font-family: 'Merriweather', serif;
         text-align: center;
         grid-row: 3;
 
     }
+        #socialBlockArrangement{
+            display: grid;
+        }
     /* Beginning of social links */
     .div3 {
-        grid-area: 3 / 2 / 4 / 3;
-        grid-row: 4;
         background: blue;
     }
     .div4 {
-        grid-area: 3 / 3 / 4 / 4;
-        grid-row: 4;
         background: red;
     }
     .div5 {
-        grid-area: 3 / 4 / 4 / 5;
-        grid-row: 4;
         background: green;
     }
     .div6 {
@@ -52,16 +54,12 @@ body{
         grid-column: 3;
         background: gray;
     }
-    .div7 {
-        grid-area: 4 / 3 / 5 / 4;
-    }
-    .div8 {
-        grid-area: 4 / 4 / 5 / 5;
-    }
     /* Ending of social media links */
     /* Global styling */
     .socialMediaBlockBase{
+        width: 300px;
+        height: 80px;
         border-radius: 0.5rem;
-        margin: 1rem 0rem 1rem 0rem;
-        
+        box-shadow: 0px 3px 3px 3px black, 0px 0px 1px 1px white;
+
     }
