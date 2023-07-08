@@ -1,5 +1,6 @@
 body{
     background: rgb(78, 20, 29);
+    color:aliceblue;
 }
 
 .parent {
@@ -9,12 +10,37 @@ body{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 6; }
-    .div2 { grid-area: 3 / 2 / 6 / 5; }
-    .div3 { grid-area: 3 / 2 / 4 / 3; }
-    .div4 { grid-area: 3 / 3 / 4 / 4; }
-    .div5 { grid-area: 3 / 4 / 4 / 5; }
-    .div6 { grid-area: 4 / 2 / 5 / 3; }
-    .div7 { grid-area: 4 / 3 / 5 / 4; }
-    .div8 { grid-area: 4 / 4 / 5 / 5; }
+    /* Header */
+    .div1 {
+        grid-area: 1 / 1 / 2 / 6;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        background: rgba(170, 50, 50, 0.281);
+        padding: 1rem;
+        text-align: center;
+        font-size: x-large;
+        width: -webkit-fill-available;
+    }
+    /* Social Links Container */
+    .div2 {
+        grid-area: 3 / 2 / 6 / 5;
+    }
+    /* Beginning of social links */
+    .div3 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .div4 {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+    .div5 {
+        grid-area: 3 / 4 / 4 / 5;
+    }
+    .div6 {
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    .div7 {
+        grid-area: 4 / 3 / 5 / 4;
+    }
+    .div8 {
+        grid-area: 4 / 4 / 5 / 5;
+    }
+    /* Ending of social media links */
