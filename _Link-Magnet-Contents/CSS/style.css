@@ -6,7 +6,7 @@ body{
 
 .parent {
     display: grid;
-    grid-template-columns: 0.5fr repeat(4, 1fr);
+    grid-template-columns: 0.5fr repeat(4, 0.5fr);
     grid-template-rows: 0.4fr repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -24,9 +24,11 @@ body{
     /* Social Links Container */
     .div2 {
         grid-area: 3 / 2 / 6 / 5;
-        background: black;
+        background: rgba(0, 0, 0, 0.226);
+        font-family: 'Merriweather', serif;
         text-align: center;
         grid-row: 3;
+
     }
     /* Beginning of social links */
     .div3 {
