@@ -35,12 +35,16 @@ ul{
         grid-row: 3;
 
     }
-        #socialBlockArrangement{
+        #socialBlockArrangementParent{
+            display: grid;
+        }
+        #socialBlockArrangementList{
             display: grid;
         }
     /* Beginning of social links */
     .div3 {
         background: blue;
+        grid-column: 2;
     }
     .div4 {
         background: red;
