@@ -59,3 +59,9 @@ body{
         grid-area: 4 / 4 / 5 / 5;
     }
     /* Ending of social media links */
+    /* Global styling */
+    .socialMediaBlockBase{
+        border-radius: 0.5rem;
+        margin: 1rem 0rem 1rem 0rem;
+        
+    }
