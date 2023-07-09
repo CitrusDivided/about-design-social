@@ -82,6 +82,17 @@ ul{
             display: grid;
         }
     /* Beginning of social links */
+
+        /* Global structure for social media links */
+            .socialGlobalStructure{
+                padding: 0.1rem;
+                background: rgba(255, 0, 0, 0.322);
+            }
+            .socialGlobalTextStructure{
+                text-align: justify;
+            }
+        /* Global structure for social media links */
+    
     .div3 {
         background: blue;
         grid-column: 1;
