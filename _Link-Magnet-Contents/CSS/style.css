@@ -44,14 +44,25 @@ ul{
     }
     /* Header */
     .div1 {
-        grid-area: 1 / 1 / 2 / 6;
+        grid-area:  1 / 1 / 1 / 6;
         font-family: 'Oleo Script Swash Caps', cursive;
-        background: rgba(0, 0, 0, 0.712);
+        background: rgb(31, 4, 22);
+        box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.377), 0px 0px 1px 1px rgba(255, 255, 255, 0.062) inset;
+        border-radius: 0.5rem;
+        height: 100px;
         padding: 1rem;
         text-align: center;
         font-size: x-large;
-        width: -webkit-fill-available;
     }
+        h1{
+            margin-top: 0;
+            text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.651);
+            padding: 1rem;
+            background-image:
+            radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.486), rgba(0, 0, 0, 0.877)),
+            repeating-linear-gradient(10deg, rgb(0, 0, 0), rgb(88, 29, 88) 1px, rgb(88, 29, 88) 1px, rgb(0, 0, 0) 50px);
+            box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.39), 0px 0px 1px 1px rgba(255, 255, 255, 0.068) inset;
+        }
     /* Social Links Container */
     .div2 {
         grid-area: 3 / 4 / 6 / 3;
@@ -61,7 +72,7 @@ ul{
         linear-gradient(10deg, rgb(232, 59, 255) 0%, rgb(73, 17, 126) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
         border-radius: 0.4rem;
         border: 1px solid rgba(20, 0, 58, 0.438);
-        box-shadow: 0px 10px 10px 10px black, 0px 0px 1px 1px rgba(255, 255, 255, 0.089) inset;
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.808), 0px 0px 1px 1px rgba(255, 255, 255, 0.048) inset;
         font-family: 'Merriweather', serif;
         text-align: center;
         grid-row: 3;
