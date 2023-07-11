@@ -110,8 +110,14 @@ ul{
         /* Global structure for social media links */
     
     .div3 {
+        transition: 0.3s;
+        box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         background: rgb(255, 0, 0);
         grid-column: 1;
+    }
+    .div3:hover{
+        transition: 0.3s;
+        box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(255, 80, 118) inset;
     }
     .div4 {
         background: rgb(19, 0, 194);
@@ -140,7 +146,8 @@ ul{
         color: white;
     }
     a:hover{
-        text-shadow: 0px 5px 10px black;
+        transition: 0.3s;
+        text-shadow: 0px 0px 10px black;
     }
     a:visited{
         color: rgb(255, 232, 189);
