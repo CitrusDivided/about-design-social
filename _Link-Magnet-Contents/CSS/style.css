@@ -142,6 +142,9 @@ ul{
     a:hover{
         text-shadow: 0px 5px 10px black;
     }
+    a:visited{
+        color: rgb(255, 232, 189);
+    }
     .socialMediaBlockBase{
         width: 300px;
         height: 180px;
@@ -160,4 +163,5 @@ ul{
         font-family: 'Oleo Script Swash Caps', cursive;
         font-size: xx-large;
         text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.534);
+        color: white;
         }
