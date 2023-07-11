@@ -131,6 +131,7 @@ ul{
         grid-row: 2;
     }
     /* Ending of social media links */
+
     /* Global styling */
     .socialMediaBlockBase{
         width: 300px;
@@ -145,3 +146,8 @@ ul{
         -webkit-animation: animationBG 30s ease infinite;
             animation: animationBG 30s ease infinite;
     }
+    .userNameClass{
+        background: transparent;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: xx-large;
+        }
