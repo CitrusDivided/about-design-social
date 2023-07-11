@@ -1,9 +1,9 @@
 body{
-    background-size: 300% 300%;
+    background-size: 300% 100%;
     background-image:
-    linear-gradient(-10deg, rgb(232, 59, 255) 0%, rgb(255, 0, 43) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
-    -webkit-animation: animationBG 10s ease infinite;
-        animation: animationBG 10s ease infinite;
+    radial-gradient(ellipse at left, rgb(232, 59, 255) 0%, rgb(255, 0, 43) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
+    -webkit-animation: animationBG 25s ease infinite;
+        animation: animationBG 25s ease infinite;
     color:aliceblue;
     overflow: hidden;
 }
