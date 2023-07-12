@@ -47,23 +47,33 @@ ul{
     .div1 {
         grid-area:  1 / 1 / 1 / 6;
         font-family: 'Oleo Script Swash Caps', cursive;
-        background: rgb(24, 0, 16);
-        box-shadow: 0px 10px 40px 0px rgb(0, 0, 0), 0px 0px 10px 0px rgba(255, 255, 255, 0.158) inset;
+        color:rgb(250, 215, 241);
+        background: radial-gradient(ellipse at top, rgb(52, 136, 125), rgb(71, 0, 54));
+        box-shadow: 0px 0px 30px 20px rgb(0, 0, 0), 0px 0px 20px 0px rgba(255, 255, 255, 0.158) inset;
         border: 1px solid rgb(63, 25, 63);
-        height: 100px;
+        height: 110px;
         padding: 0.7rem;
         text-align: center;
         font-size: x-large;
     }
+
         h1{
+            transition: 0.3s;
             margin-top: 0;
             text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.651);
             padding: 1rem;
             background-image:
             radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.486), rgba(0, 0, 0, 0.877)),
             repeating-linear-gradient(10deg, rgb(0, 0, 0), rgb(88, 29, 88) 1px, rgb(88, 29, 88) 1px, rgb(0, 0, 0) 50px);
-            box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.39), 0px 0px 1px 1px rgba(255, 255, 255, 0.068) inset;
+            box-shadow: 0px 10px 40px 0px rgb(0, 0, 0), 0px 0px 10px 0px rgba(252, 164, 255, 0.61) inset;
+            border: 2px solid rgb(63, 25, 63);
+            border-radius: 0.3rem;
         }
+            h1:hover{
+                transition: 0.3s;
+                box-shadow: 0px 10px 40px 0px rgb(0, 0, 0), 0px 0px 18px 0px rgba(252, 164, 255, 0.61) inset;
+                border: 2px solid rgb(63, 25, 63);
+            }
     /* Social Links Container */
     .div2 {
         grid-area: 2 / 4 / 6 / 3;
