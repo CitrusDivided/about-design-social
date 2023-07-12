@@ -115,27 +115,54 @@ ul{
         background: rgb(255, 0, 0);
         grid-column: 1;
     }
-    .div3:hover{
-        transition: 0.3s;
-        box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(255, 80, 118) inset;
-    }
+        .div3:hover{
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(255, 80, 118) inset;
+        }
+        
     .div4 {
+        transition: 0.3s;
+        box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         background: rgb(19, 0, 194);
         grid-column: 2;
     }
+        .div4:hover{
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(162, 80, 255) inset;
+        }
+
     .div5 {
+        transition: 0.3s;
+        box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         background: green;
         grid-column: 3;
     }
+        .div5:hover {
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(80, 255, 133) inset;
+        }
+
     .div6 {
+        transition: 0.3s;
+        box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         grid-column: 2;
         background: rgb(255, 94, 0);
     }
+        .div6:hover {
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(255, 76, 32) inset;
+        }
     .div7 {
+        transition: 0.3s;
+        box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         background: rgb(255, 0, 255);
         grid-column: 1;
         grid-row: 2;
     }
+        .div7:hover{
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 5px black, 0px 0px 10px 0px rgb(236, 32, 255) inset;
+        }
     /* Ending of social media links */
 
     /* Global styling */
