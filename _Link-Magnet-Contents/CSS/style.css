@@ -1,10 +1,21 @@
 body{
     margin: 0;
     background-size: 300% 100%;
+
     background-image:
     radial-gradient(ellipse at left, rgb(232, 59, 255) 0%, rgb(255, 0, 43) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
     -webkit-animation: animationBG 25s ease infinite;
         animation: animationBG 25s ease infinite;
+
+
+        /* Lighting for streaming creation - return the following code for it */
+    
+        /* background-image:
+    radial-gradient(ellipse at top, rgb(255, 203, 59) 0%, rgb(253, 255, 162) 35%, rgb(0, 21, 37) 55%, rgb(255, 205, 68) 100%);
+    -webkit-animation: animationBG 25s ease infinite;
+        animation: animationBG 25s ease infinite; */
+
+
     color:aliceblue;
     overflow: hidden;
 }
