@@ -225,7 +225,7 @@ ul{
         box-shadow: 0px 1px 10px 0px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.205) inset;
         background-size: 300% 300%;
         background-image:
-        linear-gradient(10deg, rgb(232, 59, 255) 0%, rgba(181, 102, 255, 0.37) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
+        linear-gradient(196deg, rgb(232, 59, 255) 0%, rgba(181, 102, 255, 0.37) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
         -webkit-animation: animationBG 30s ease infinite;
             animation: animationBG 30s ease infinite;
     }
@@ -242,3 +242,27 @@ ul{
             font-size: x-small;
             margin-top: -20px;
         }
+
+
+@media (min-width: 0px){
+
+    body{
+        background: blue;
+    }
+
+    .div2{
+        height: 1000px;
+    }
+
+}
+
+@media (min-width: 1100px){
+    body{
+        background: red;
+    }
+
+    .div2{
+        height: 580px;
+    }
+
+}
