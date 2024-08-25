@@ -3,7 +3,7 @@ body{
     background-size: 300% 100%;
 
     background-image:
-    radial-gradient(ellipse at left, rgb(232, 59, 255) 0%, rgb(255, 0, 43) 35%, rgb(0, 21, 37) 55%, rgb(0, 255, 255) 100%);
+    radial-gradient(ellipse at center, rgb(252, 255, 59) 0%, rgb(255, 0, 43) 35%, rgb(0, 21, 37) 55%, rgb(163, 31, 108) 100%);
     -webkit-animation: animationBG 25s ease infinite;
     animation: animationBG 25s ease infinite;
     color:aliceblue;
@@ -46,10 +46,11 @@ ul{
     }
     /* Header */
     .div1 {
+        filter: hue-rotate(45deg) drop-shadow(2px 4px 6px black);
         grid-area:  1 / 1 / 1 / 6;
         font-family: 'Oleo Script Swash Caps', cursive;
         color:rgb(250, 215, 241);
-        background: radial-gradient(ellipse at top, rgb(52, 136, 125), rgb(71, 0, 54));
+        background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
         box-shadow: 0px 0px 30px 20px rgb(0, 0, 0), 0px 0px 20px 0px rgba(255, 255, 255, 0.158) inset;
         border: 1px solid rgb(63, 25, 63);
         height: 110px;
@@ -60,14 +61,15 @@ ul{
 
         h1{
             transition: 0.3s;
+            cursor: pointer;
             margin-top: 0;
             text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.651);
             padding: 1rem;
-            background-image:
-            radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.486), rgba(0, 0, 0, 0.877)),
-            repeating-linear-gradient(10deg, rgb(0, 0, 0), rgb(88, 29, 88) 1px, rgb(88, 29, 88) 1px, rgb(0, 0, 0) 50px);
+            background:
+            radial-gradient(ellipse at bottom, rgba(255, 212, 163, 0.527), rgba(79, 255, 167, 0.452)),
+            repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
             box-shadow: 0px 10px 40px 0px rgb(0, 0, 0), 0px 0px 10px 0px rgba(252, 164, 255, 0.61) inset;
-            border: 2px solid rgb(63, 25, 63);
+            border: 2px solid rgb(25, 51, 63);
             border-radius: 0.3rem;
         }
             h1:hover{
