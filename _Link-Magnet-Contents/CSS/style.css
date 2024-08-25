@@ -79,7 +79,6 @@ ul{
             }
     /* Social Links Container */
     .div2 {
-        grid-area: 2 / 4 / 6 / 3;
         background-image:
         radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.103), rgba(0, 0, 0, 0.877)),
         repeating-linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.603) 0.5px, rgba(88, 29, 88, 0.521) 0.5px, rgba(0, 0, 0, 0.644) 2.2px),
@@ -90,6 +89,7 @@ ul{
         font-family: 'Merriweather', serif;
         text-align: center;
         grid-row: 2;
+        grid-column: 1 / 6;
         height: 570px;
         -webkit-animation: animationBG 30s ease infinite;
         animation: animationBG 30s ease infinite;
@@ -105,6 +105,7 @@ ul{
         }
         #socialBlockArrangementList{
             display: grid;
+            justify-content: space-evenly;
         }
     /* Beginning of social links */
 
