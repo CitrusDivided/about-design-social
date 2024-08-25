@@ -49,14 +49,15 @@ ul{
         filter: hue-rotate(45deg) drop-shadow(2px 4px 6px black);
         grid-area:  1 / 1 / 1 / 6;
         font-family: 'Oleo Script Swash Caps', cursive;
-        color:rgb(250, 215, 241);
+        color:rgba(255, 255, 255, 0.836);
         background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
         box-shadow: 0px 0px 30px 20px rgb(0, 0, 0), 0px 0px 20px 0px rgba(255, 255, 255, 0.158) inset;
         border: 1px solid rgb(63, 25, 63);
         height: 110px;
         padding: 0.7rem;
         text-align: center;
-        font-size: x-large;
+        font-size: large;
+        letter-spacing: 0.1em;
     }
 
         h1{
@@ -64,7 +65,7 @@ ul{
             cursor: pointer;
             margin-top: 0;
             text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.651);
-            padding: 1rem;
+            padding: 0.6rem;
             background:
             radial-gradient(ellipse at bottom, rgba(255, 212, 163, 0.527), rgba(79, 255, 167, 0.452)),
             repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
@@ -80,7 +81,7 @@ ul{
     /* Social Links Container */
     .div2 {
         background-image:
-        radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.103), rgb(0 0 0)), repeating-linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.603) 0.5px, rgba(88, 29, 88, 0.521) 0.5px, rgba(0, 0, 0, 0.644) 2.2px), linear-gradient(213deg, rgb(232, 59, 255) 0%, rgb(73, 17, 126) 35%, rgb(0 110 255 / 0%) 55%, rgb(0, 255, 255) 100%);
+        radial-gradient(ellipse at bottom, rgba(173, 0, 95, 0.103), rgb(0 0 0)), repeating-linear-gradient(135deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.603) 0.5px, rgba(88, 29, 88, 0.521) 0.5px, rgba(0, 0, 0, 0.644) 2.2px), linear-gradient(213deg, rgb(232, 59, 255) 0%, rgb(0 255 140 / 81%) 35%, rgb(0 110 255 / 0%) 55%, rgb(0, 255, 255) 100%);
         border-radius: 0.4rem;
         border: 1px solid rgba(20, 0, 58, 0.438);
         box-shadow: 0px 10px 50px 5px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.048) inset;
@@ -98,11 +99,11 @@ ul{
         h2{
             position: relative;
             top: -13px;
-            padding: 1rem;
-            box-shadow: 0px 0px 20px 0px rgba(0, 128, 128, 0.342);
+            padding: 0.6rem;
+            box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
             border-top: 1px solid rgba(0, 128, 128, 0.747);
-            border-bottom: 1px solid rgba(250, 40, 40, 0.377);
-            background: linear-gradient(#14849b5c, rgb(255 0 0 / 12%));
+            border-bottom: 1px solid rgba(41, 134, 122, 0.651);
+            background: linear-gradient(#14849b5c, rgba(25, 133, 88, 0.603));
         }
         #socialBlockArrangementParent{
             display: grid;
@@ -246,23 +247,36 @@ ul{
 
 @media (min-width: 0px){
 
-    body{
-        background: blue;
+    .div2{
+        height: 800px;
     }
 
-    .div2{
-        height: 1000px;
+    .div8{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .div5{
+        grid-column: 2;
+        grid-row: 3;
     }
 
 }
 
 @media (min-width: 1100px){
-    body{
-        background: red;
-    }
 
     .div2{
         height: 580px;
+    }
+
+    .div8{
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .div5{
+        grid-column: 3;
+        grid-row: 1;
     }
 
 }
