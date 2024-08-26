@@ -82,22 +82,30 @@ ul{
 
             .bonus-content-grid-container{
                 grid-row: 2;
-                background: black;
+                filter: grayscale(0.3);
+                background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
                 border-radius: 0.4rem;
                 padding: 1rem;
                 grid-column: 2/5;
                 height: 200px;
                 display: grid;
+                text-align: center;
                 grid-template-rows: 1fr 1fr;
+                border: 1px solid rgb(26, 66, 38);
+                box-shadow: 0px 0px 50px 0px black, 0px 0px 1px 0px rgba(255, 255, 255, 0.212) inset;
             }
 
                 .bonus-content-banner{
-                    background-color: rgba(90, 19, 19, 0.336);
+                    border-top-left-radius: 0.4rem;
+                    border-top-right-radius: 0.4rem;
+                    background-color: rgba(3, 0, 51, 0.336);
                     padding: 1rem;
                 }
 
                 .bonus-content-base{
-                    background: teal;
+                    background: rgba(43, 0, 27, 0.575);
+                    border-bottom-left-radius: 0.4rem;
+                    border-bottom-right-radius: 0.4rem;
                     padding: 1rem;
                 }
 
