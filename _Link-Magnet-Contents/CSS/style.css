@@ -7,7 +7,7 @@ body{
     -webkit-animation: animationBG 25s ease infinite;
     animation: animationBG 25s ease infinite;
     color:aliceblue;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 @-webkit-keyframes animationBG {
     0% {
