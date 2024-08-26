@@ -146,7 +146,7 @@ ul{
                 grid-template-rows: 80px 1fr;
                 align-items: center;
                 text-align: center;
-                box-shadow: 0px 0px 10px 0px black, 0px 0px 10px 1px rgba(124, 34, 133, 0.514) inset;
+                box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgba(73, 137, 255, 0.281) inset;
             }
 
                 .stream-content-banner{
@@ -155,6 +155,7 @@ ul{
                     border-top: 1px solid rgba(0, 128, 128, 0.178);
                     border-top-left-radius: 0.4rem;
                     border-top-right-radius: 0.4rem;
+                    border: 1px solid rgba(135, 255, 219, 0.185);
                 }
 
                 .stream-content-out{
