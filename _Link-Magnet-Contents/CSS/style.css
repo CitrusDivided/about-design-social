@@ -134,6 +134,29 @@ ul{
                         background: rgba(15, 15, 15, 0.719);
                     }
 
+
+            .stream-content-grid-container{
+                background: black;
+                grid-row: 3;
+                grid-column: 3/4;
+                width: 40rem;
+                height: 10rem;
+                border-radius: 0.4rem;
+                display: grid;
+                grid-template-rows: 80px 1fr;
+            }
+
+                .stream-content-banner{
+                    background-color: red;
+                }
+
+                .btn-social-out{
+                    background-color: rgb(36, 36, 36);
+                    border: none;
+                    padding: 1rem;
+                    color: white;
+                }
+
     /* Social Links Container */
     .div2 {
         background-image:
@@ -143,7 +166,7 @@ ul{
         box-shadow: 0px 10px 50px 5px rgb(0, 0, 0), 0px 0px 1px 1px rgba(255, 255, 255, 0.048) inset;
         font-family: 'Merriweather', serif;
         text-align: center;
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1 / 6;
         height: 570px;
     }
