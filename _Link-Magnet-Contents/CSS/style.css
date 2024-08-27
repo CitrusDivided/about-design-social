@@ -372,6 +372,11 @@ ul{
         grid-row: 3;
     }
 
+    #release-specific-decoration{
+        border-radius: 0.4rem;
+        width: 90%;
+    }
+
 }
 
 @media (min-width: 1100px){
@@ -388,6 +393,11 @@ ul{
     .div5{
         grid-column: 3;
         grid-row: 1;
+    }
+
+    #release-specific-decoration{
+        border-radius: 0.4rem;
+        width: 80%;
     }
 
 }
