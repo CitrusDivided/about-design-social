@@ -58,6 +58,8 @@ ul{
         text-align: center;
         font-size: large;
         letter-spacing: 0.1em;
+        display: grid;
+        margin-bottom: 2rem;
     }
 
         h1{
@@ -206,9 +208,10 @@ ul{
 
             #release-specific-decoration{
                 border-radius: 0.4rem;
-                filter: hue-rotate(149deg);
+                filter: hue-rotate(169deg);
+                background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
                 width: 50%;
-                align-self: center;
+                justify-self: center;
             }
 
         #socialBlockArrangementParent{
