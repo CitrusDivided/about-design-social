@@ -203,6 +203,14 @@ ul{
             border-bottom: 1px solid rgba(41, 134, 122, 0.651);
             background: linear-gradient(#14849b5c, rgba(25, 133, 88, 0.603));
         }
+
+            #release-specific-decoration{
+                border-radius: 0.4rem;
+                filter: hue-rotate(149deg);
+                width: 50%;
+                align-self: center;
+            }
+
         #socialBlockArrangementParent{
             display: grid;
         }
