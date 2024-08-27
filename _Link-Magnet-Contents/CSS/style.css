@@ -355,6 +355,11 @@ ul{
             margin-top: -20px;
         }
 
+        .reposition-outbound-text{
+            position: relative;
+            top: -12px;
+        }
+
 
 @media (min-width: 0px){
 
